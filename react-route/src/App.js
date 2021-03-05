@@ -12,14 +12,11 @@ const App = ({ name }) => {
   }
 
   const handleSubmit = event => {
-    emitEvent('@dr/react-route/todo/add-task', )
     event.preventDefault()
-    dispatchEvent(new CustomEvent(
-        '@dr/react-route/todo/add-task', {
-          id: uuid(),
-          describe: task,
-      }
-    ))
+    emitEvent('@dr/react-route/todo/add-task', {
+      id: uuid(),
+      describe: task,
+    })
     updateTask('')
   }
 
