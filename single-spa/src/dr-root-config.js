@@ -22,9 +22,21 @@ registerApplication({
 });
 
 registerApplication({
+  name: "@dr/react-lazy",
+  app: () => System.import("@dr/react-lazy"),
+  activeWhen: ['/react-lazy'],
+});
+
+registerApplication({
   name: "@dr/react-route",
   app: () => System.import("@dr/react-route"),
   activeWhen: (location) => location.pathname === '/react-route',
+});
+
+registerApplication({
+  name: "@dr/react-header",
+  app: () => System.import("@dr/react-header"),
+  activeWhen: ['/'],
 });
 
 start({
