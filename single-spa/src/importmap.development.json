@@ -1,0 +1,12 @@
+{
+    "imports": {
+      "@dr/root-config": "http://localhost:9000/dr-root-config.js",
+      "@dr/react-single": "http://localhost:8500/dr-react-single.js",
+      "@dr/react-multiples": "//localhost:8500/dr-react-multiples.js",
+      "@dr/react-lazy": "http://localhost:8500/dr-react-lazy.js",
+      "@dr/react-parcel": "http://localhost:8501/dr-react-parcel.js",
+      "@dr/react-route": "http://localhost:8500/dr-react-route.js",
+      "@dr/utils": "http://localhost:8600/dr-utils.js",
+      "@dr/react-header": "http://localhost:8700/dr-react-header.js"
+    }
+  }

@@ -36,6 +36,12 @@
     }
   </script>
   <% } %>
+  <!-- subir 'import-development.json' pra alguma cdn -->
+  <!-- <% if (isLocal) { %>
+  <script type="systemjs-importmap" src="https://video-implementando-micro-front-end-react-single-spa.nyc3.digitaloceanspaces.com/importmap.development.json"></script>
+  <% } else { %>
+    <script type="systemjs-importmap" src="https://video-implementando-micro-front-end-react-single-spa.nyc3.digitaloceanspaces.com/importmap.production.json"></script>
+  <% } %> -->
 
   <script src="https://cdn.jsdelivr.net/npm/import-map-overrides@2.2.0/dist/import-map-overrides.js"></script>
   <% if (isLocal) { %>
